@@ -1,0 +1,86 @@
+#searchBox {
+  text-align: center;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.searchForm {
+  text-align: center;
+}
+
+#searchInput {
+  width: 300px;
+  font-size: 125%;
+}
+
+body {
+  background-image: url("images/CinemaBackground.jpg");
+}
+
+.moviePoster {
+  float: left;
+  margin-right: 20px;
+  width: 425px;
+  height: 600px;
+}
+
+.movieTitle {
+  font-size: 5em;
+  margin-left: 435px;
+  font-family: 'Didact Gothic', sans-serif;
+  color: orange;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.movieDesc {
+  margin-top: 50px;
+  font-family: 'Neuton', serif;
+  font-size: 1.8em;
+  margin-bottom: 100px;
+  color: orange;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.movieGenres {
+  margin-left: 425px;
+  margin-bottom: 75px;
+  color: orange;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.movieLi {
+  font-family: 'Neuton', serif;
+  font-size: 1.4em;
+  color: orange;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#genreHeader {
+  font-family: 'Neuton', serif;
+  font-size: 2em;
+  font-style: oblique;
+  color: orange;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.tag {
+  font-style: italic;
+  font-family: 'Neuton', serif;
+  color: orange;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.movieDate {
+  margin-top: 25px;
+  font-family: 'Neuton', serif;
+  font-size: 1.2em;
+  color: orange;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.runTime {
+  font-family: 'Neuton', serif;
+  font-size: 1.2em;
+  color: orange;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}

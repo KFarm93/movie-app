@@ -1,0 +1,26 @@
+{
+  "name": "movie-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "angular": "^1.6.3",
+    "angular-ui-router": "^0.4.2",
+    "express": "^4.15.2",
+    "serve": "^5.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KFarm93/movie-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KFarm93/movie-app/issues"
+  },
+  "homepage": "https://github.com/KFarm93/movie-app#readme",
+  "description": ""
+}

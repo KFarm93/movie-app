@@ -1,0 +1,13 @@
+<body id="detailsBody">
+<div ng-controller="movieDetailsController">
+  <h1 class="movieTitle">{{thisTitle}}</h1>
+  <img class="moviePoster" ng-src="https://image.tmdb.org/t/p/w500{{thisPoster}}">
+  <h3 class="tag">"{{thisTagline}}"</h3>
+  <p class="movieDesc">{{thisOverview}}</p>
+  <ul class="movieGenres"><span id="genreHeader">Genres</span>
+    <li ng-repeat="genres in thisGenres" class="movieLi">{{genres.name}}</li>
+  </ul>
+  <p class="runTime">Running time: {{thisRuntime}} minutes</p>
+  <p class="movieDate">Release Date: {{thisRelease}}</p>
+</div>
+</body>
