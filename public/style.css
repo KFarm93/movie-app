@@ -15,6 +15,7 @@
 
 body {
   background-image: url("images/CinemaBackground.jpg");
+  background-size: cover;
 }
 
 .moviePoster {
